@@ -7,5 +7,7 @@ Have a Mac or Linux and want to make this an executable so you just have to clic
 Execute the following commands at the same directory level as main.js
 
 npm i nexe -g
+
 nexe -h
+
 nexe main.js --build
