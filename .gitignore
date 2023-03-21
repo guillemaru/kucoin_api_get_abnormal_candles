@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Build files
+dist/
+build/
