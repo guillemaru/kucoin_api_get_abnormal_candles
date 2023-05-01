@@ -1,13 +1,13 @@
 {
-  "name": "unittime",
+  "name": "kucoin_candles",
   "version": "1.0.0",
-  "description": "",
-  "main": "prueba.js",
+  "description": "Use the Kucoin API to get candle information on the crypto pairs of your choice, and send a Telegram message to a bot you create whenever a candle of any pair is big enough!\r Hopefully you can use that information to make trading decisions.",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "GMR",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
