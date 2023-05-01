@@ -1,3 +1,3 @@
 const pairs = ["MKR-BTC", "AAVE-BTC", "KDA-BTC", "TOKO-KCS", "LINK-USDC", "BTC-USDT", "SHIB-USDT", "APE-USDT", "AVAX-USDT", "NEAR-USDT", "BNB-USDT", "SAND-USDT", "ELON-USDT", "LTC-USDT", "CRO-USDT", "THETA-USDT", "VR-USDT", "ROSE-USDT", "KOK-USDT", "WIN-USDT", "USDC-USDT", "ALGO-USDT", "HBAR-USDT", "FLUX-USDT", "ZEC-USDT", "DASH-USDT", "SOS-USDT", "PAXG-USDT" ];
-//const pairs = ["MKR-BTC"];
+
 module.exports = pairs;
