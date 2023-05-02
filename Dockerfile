@@ -10,7 +10,7 @@ RUN npm install
 
 # Copy main.js and pair.js
 COPY main.js .
-COPY pair.js .
+COPY pairs.js .
 
 # Start the application
 CMD ["node", "main.js"]

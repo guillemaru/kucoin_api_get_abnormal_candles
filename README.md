@@ -12,8 +12,10 @@ KUCOIN_CANDLES_BOT_ID (e.g. 3283212966:AQGRW9NjcCoTRnrkSbz_UAu6dFOy-joOh7Y)
 KUCOIN_CANDLES_CHAT_ID (e.g. 5143284951)  
 
 # Running the application with Docker
-Use the provided Dockerfile to build a Docker image or directly pull from Dockerhub: docker pull guillemaru/cryptocandles  
-https://hub.docker.com/r/guillemaru/cryptocandles
+Use the provided Dockerfile to build a Docker image or directly pull from Dockerhub:  
+$ docker pull guillemaru/cryptocandles  
+$ docker run -e KUCOIN_CANDLES_THRESHOLD_PERCENTAGE="0.15" -e KUCOIN_CANDLES_THRESHOLD_VOLUME="200" -e KUCOIN_CANDLES_BOT_ID="62415326:AAGRS9NjcCERxedefrkStgz_LA2u6deOv-oOf3Y" -e KUCOIN_CANDLES_CHAT_ID="4568092351" cryptocandles  
+https://hub.docker.com/r/guillemaru/cryptocandles  
 
 # Getting an executable
 Have a Mac or Linux and want to make this an executable so you just have to click twice and let the program run on your computer?
